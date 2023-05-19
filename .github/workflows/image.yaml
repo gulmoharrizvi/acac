@@ -1,0 +1,11 @@
+name: Image
+
+on: [pull_request]
+                    
+jobs:
+    hello:
+        runs-on: ubuntu-latest
+        
+        steps:
+           - name: Hello step 
+             run: echo " {/meme.jpg} Sabar karo bhai ruko zara 🐧🐧"
