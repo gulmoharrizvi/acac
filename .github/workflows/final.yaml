@@ -1,0 +1,11 @@
+name: Final
+
+on: [pullrequest]
+                    
+jobs:
+    hello:
+        runs-on: ubuntu-latest
+        
+        steps:
+           - name: Hello step 
+             run: echo "Sabar karo bhai ruko zara 🐧🐧"
